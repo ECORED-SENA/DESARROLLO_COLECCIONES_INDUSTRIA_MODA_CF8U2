@@ -81,14 +81,36 @@ export default {
           },
         ],
       },
-    ],
-    subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Escalado de pijama y mamelucos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Escalado del pijama',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Escalado mameluco',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Desarrollo de modelos de pijamas y mamelucos',
         desarrolloContenidos: true,
       },
+    ],
+    subMenu: [
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -119,134 +141,90 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Carrera de Diseño y Gestión en Moda. (2015). Técnicas de patronaje. Tomo I: Mujer. Editorial UPC.',
+      link: 'https://repositorioacademico.upc.edu.pe/handle/10757/344592',
+    },
+
+    {
+      referencia: 'Curvígrafo. (s. f.). En Definiciona.',
+      link: 'https://definiciona.com/curvigrafo/',
+    },
+
+    {
+      referencia:
+        'Feyerabend, V. F., Herrero, B., Biderman, I. y Gosh, F. (2009). Ilustración de moda. Ilustraçao de moda: Plantillas. Moldes (1ª ed.). Editorial Gustavo Gili, S.L.',
+    },
+
+    { referencia: 'Gaviria, A. (2018). Escalado.' },
+
+    {
+      referencia:
+        'Hincapié, L., García, M. y Vélez, M. (1995). Patronaje y escalado línea infantil. SENA.',
+      link: 'https://hdl.handle.net/11404/4874',
+    },
+
+    {
+      referencia:
+        'Real Academia Española. (s. f.). Diccionario de la lengua española. «Diccionario de la lengua española» - Edición del Tricentenario.',
+      link: 'https://dle.rae.es/',
+    },
+
+    {
+      referencia:
+        'SENA y JICA. (2011). Manual de patronaje básico e interpretación de diseños. SENA.',
+      link: 'https://hdl.handle.net/11404/4725',
+    },
+
+    {
+      referencia: 'Tevisto.com. (2017). Diccionario de la moda.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.tevisto.com/blog/wp-content/uploads/2017/10/diccionario-de-la-moda.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Acromion',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Anat. Apófisis del omóplato, con la que se articula la extremidad externa de la clavícula (Real Academia Española, s.f.).',
     },
     {
-      termino: 'Suftware',
+      termino: 'Curvígrafo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Sustantivo masculino. Este vocablo de uso obsoleto hace alusión a una herramienta utilizada en el campo de las matemáticas, geometría y en física. Se emplea para trazar, dibujar, diseñar y bosquejar curvas y en distintas dimensiones o espacios (Definiciona, s.f.)',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Mameluco',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        '3. m. Arg., Cuba y Ur. mono (‖ prenda de vestir) (Real Academia Española, s.f.).',
     },
     {
-      termino: 'Áectores',
+      termino: 'Mono',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Prenda de vestir de una sola pieza, de tela fuerte, que consta de cuerpo y pantalón, especialmente la utilizada en diversos oficios como traje de faena (Real Academia Española, s.f.).',
     },
     {
-      termino: 'Moda',
+      termino: 'Raglán',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Tipo de manga larga o corta, particular en la costura. El corte sale de la axila hacia el hombro, con una línea diagonal hasta el cuello (Tevisto.com, 2017).',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Hincapié, L., García, M. y Vélez, M. (1995). Patronaje y escalado línea infantil. SENA.',
+      tipo: 'PDF',
+      descarga: '/downloads/patronaje_escalado_linea_infantil.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'SENA y JICA. (2011). Manual de patronaje básico e interpretación de diseños. SENA. ',
+      tipo: 'PDF',
+      descarga: '/downloads/Manual_patronaje_basico_interpretacion_disenos.pdf',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Guzmán, M. (2017). Ropa de bebés. Patronaje. ',
+      tipo: 'Cartilla',
+      link: 'https://issuu.com/mariaeuniceguzmanidarraga/docs/patronaje_bebes',
     },
   ],
   creditos: {
@@ -264,6 +242,46 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Marisol Osorio',
+        cargo: 'Líder Sennova',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Salomé Solano Sarria ',
+        cargo: 'Instructora',
+        centro: 'Centro de Desarrollo Agroempresarial Regional Cundinamarca',
+      },
+      {
+        nombre: 'Maritza Rodríguez',
+        cargo: 'Instructora',
+        centro:
+          'Centro de manufactura en textil y cuero Regional Distrito Capital',
+      },
+      {
+        nombre: 'María Luisa Yepes',
+        cargo: 'Instructora',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Fabio Andrés Gaviria',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+      },
+      {
+        nombre: 'Liliana Victoria Morales Gualdrón',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro para la comunicación de la Industria Gráfica Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Centro Agropecuario La Granja Regional Tolima ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -278,20 +296,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Oscar Marquez Sanabria'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Ricardo Alfonso González Vargas',
         cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

@@ -15,7 +15,7 @@
       .bloque-texto-g__texto.p-4
         p Al igual que en las demás líneas, los desarrollos son las transformaciones que se realizan a los patrones básicos para conseguir el modelo o diseño propuesto en la documentación técnica (ficha técnica de diseño y producción).
 
-        a.anexo.mt-4(:href="obtenerLink('/downloads/CF8_U2_3-1-1_cuerpo_camisa_beb.pdf')" target="_blank")
+        a.anexo.mt-4(:href="obtenerLink('/downloads/CF8_U2_7_Desarrollo_de_modelos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

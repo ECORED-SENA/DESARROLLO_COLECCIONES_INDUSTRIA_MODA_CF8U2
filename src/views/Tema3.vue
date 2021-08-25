@@ -15,7 +15,7 @@
       .bloque-texto-g__texto.p-4
         p Existen varios modelos de camisa para bebé; sin embargo, a nivel industrial, se manejan dos patrones básicos que se caracterizan y reciben su nombre debido al tipo de cuello. A continuación, se explicará la construcción de patrones para la camiseta cuello redondo y la camisa con cuello bebe o Peter Pan (incluyendo perilla).
 
-        a.anexo.mt-4(:href="obtenerLink('/downloads/CF8_U2_3-1-1_cuerpo_camisa_beb.pdf')" target="_blank")
+        a.anexo.mt-4(:href="obtenerLink('/downloads/CF8_U2_4_Modelos_de_camisa.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

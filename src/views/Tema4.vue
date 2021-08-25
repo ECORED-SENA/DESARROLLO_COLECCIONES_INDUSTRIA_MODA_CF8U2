@@ -29,7 +29,7 @@
         .jum_3.p-4
           p En confección, cuando se habla de pijama de bebé, se hace referencia a la que está compuesta por dos piezas: camisa o camiseta y pantalón o pantaloneta. El siguiente ejemplo se hará con camiseta y pantalón largo con puño.
 
-          a.anexo(:href="obtenerLink('/downloads/CF8_U2_3-2_Panal_pantalo.pdf')" target="_blank")
+          a.anexo(:href="obtenerLink('/downloads/CF8_U2_5-1_Pijama_de_bebe.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -51,7 +51,7 @@
           p A continuación, se presenta el desarrollo de las bases de diferentes estilos de mameluco:
 
 
-          a.anexo(:href="obtenerLink('/downloads/CF8_U2_3-2_Panal_pantalo.pdf')" target="_blank")
+          a.anexo(:href="obtenerLink('/downloads/CF8_U2_5-2_Mamelucos.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

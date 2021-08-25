@@ -53,7 +53,7 @@
           img(src='@/assets/curso/tema_1/img_5.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de sewingset.blogspot.com
 
-        p Para el trazo de los patrones de este componente formativo, se trabajará con el “Cuadro de tallas para bebé normalizado”, tomado de Patronaje y escalado línea infantil de Hincapié et al. (1995) (primer ejemplo relacionado).
+        p Para el trazo de los patrones de este componente formativo, se trabajará con el “Cuadro de tallas para bebé normalizado”, tomado de Patronaje y escalado línea infantil de Hincapié et al. (1995) (primer ejemplo relacionado). 
  
   
 </template>

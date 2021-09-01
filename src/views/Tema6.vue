@@ -8,7 +8,7 @@
         span 6
       h1 Desarrollo de modelos de pijamas y mamelucos
 
-    .bloque-texto-g.bg_1.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bg_5.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema_5/img_18.png')})`}"
       )

@@ -49,7 +49,8 @@
     p.mb-5 Es importante recordar que si se compara el cuerpo humano con un cilindro, cuando se desarrollen patrones, se trabaja el cuerpo por cuartos, teniendo como líneas delimitantes o de referencia el centro frente, costado y el centro espalda, así:
 
     .row
-      .col-lg-6.d-flex
+      .col-lg-6
+        p.BorTit #[strong Figura 8] #[br]Analog'ia del cilindro y el cuerpo humano
         figure
           img(src='@/assets/curso/tema_2/img_3.png', alt='Texto que describa la imagen')
       .col-lg-6

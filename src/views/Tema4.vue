@@ -55,7 +55,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
-              p #[strong Pijama de bebé.] Elaboración de patrón
+              p #[strong Mamelucos.] Elaboración de patrón
     
     
 

@@ -50,7 +50,7 @@
 
     .row
       .col-lg-6
-        p.BorTit #[strong Figura 8] #[br]Analog'ia del cilindro y el cuerpo humano
+        p.BorTit #[strong Figura 8] #[br]Analogía del cilindro y el cuerpo humano
         figure
           img(src='@/assets/curso/tema_2/img_3.png', alt='Texto que describa la imagen')
       .col-lg-6

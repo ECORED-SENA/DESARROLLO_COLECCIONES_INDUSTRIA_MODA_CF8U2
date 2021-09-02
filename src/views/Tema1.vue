@@ -48,7 +48,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        p.BorTit #[strong Figura 5] #[br]Cuadro de tallas para bebé
+        p.BorTit #[strong Figura 5] #[br]Tabla de medidas de bebé
         figure.mb-5
           img(src='@/assets/curso/tema_1/img_5.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de sewingset.blogspot.com

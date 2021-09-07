@@ -222,6 +222,10 @@ export default {
       descarga: '/downloads/Manual_patronaje_basico_interpretacion_disenos.pdf',
     },
     {
+      texto: 'Gaviria, A. (2018). Escalado.',
+      tipo: 'Instructivo',
+    },
+    {
       texto: 'Guzmán, M. (2017). Ropa de bebés. Patronaje. ',
       tipo: 'Cartilla',
       link: 'https://issuu.com/mariaeuniceguzmanidarraga/docs/patronaje_bebes',

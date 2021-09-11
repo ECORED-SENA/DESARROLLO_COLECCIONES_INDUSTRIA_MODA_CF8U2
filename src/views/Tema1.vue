@@ -41,14 +41,14 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        p.BorTit #[strong Figura 4] #[br]Cuadro de tallas para bebé
+        p.BorTit #[strong Figura 4] #[br]Tabla de medidas para bebés
         figure
           img(src='@/assets/curso/tema_1/img_4.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Mundo Crochet. (s.f.). 
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        p.BorTit #[strong Figura 5] #[br]Tabla de medidas de bebé
+        p.BorTit #[strong Figura 5] #[br]Tabla de medidas para bebés
         figure.mb-5
           img(src='@/assets/curso/tema_1/img_5.svg', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de sewingset.blogspot.com

@@ -127,11 +127,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -224,8 +219,7 @@ export default {
     {
       texto: 'Gaviria, A. (2018). Escalado.',
       tipo: 'Instructivo',
-      descarga:
-        '/downloads/Manual_toma_medidas_antropometricas_aplicadas_industria_vestuario_Inamod.pdf',
+      descarga: '/downloads/Escalado.pdf',
     },
     {
       texto: 'Guzmán, M. (2017). Ropa de bebés. Patronaje. ',

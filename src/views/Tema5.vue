@@ -38,16 +38,21 @@
 
     p.mb-5 Para escalar es muy importante tener en cuenta estos ejes y, sobre estos, trazar un plano cartesiano en cada punto a escalar, para luego aplicar la medida (según incrementos en tabla de medidas) hacia afuera (en tallas mayores) y hacia adentro (en tallas menores), manteniendo las proporciones y curvas del patrón base o inicial (Gaviria, 2018).
 
-    .row.mb-5
+    .row.mb-3.justify-content-center
       .col-lg-6
         p.BorTit #[strong Figura 9] Ejes de escalado
-        figure
-          img(src='@/assets/curso/tema_5/img_4.png', alt='Texto que describa la imagen')
-          figcaption Nota. Tomada de Gaviria (2018).
+        
       .col-lg-6
         p.BorTit #[strong Figura 10] Posición de las escuadras para trazar los planos cartesianos en puntos de prendas inferiores
+
+    .row.mb-5.justify-content-center
+      .col-lg-6
         figure
-          img(src='@/assets/curso/tema_5/img_5.png', alt='Texto que describa la imagen')
+          img.img_atl(src='@/assets/curso/tema_5/img_4.png', alt='Texto que describa la imagen')
+          figcaption Nota. Tomada de Gaviria (2018).
+      .col-lg-6
+        figure
+          img.img-a(src='@/assets/curso/tema_5/img_5.png', alt='Texto que describa la imagen')
           figcaption Nota. Tomada de Gaviria (2018).
 
     p.mb-5 A continuación se presenta un ejemplo en el que se explica gráficamente el escalado del punto de hombro por sisa (hombro x sisa), con unos valores de 0.84 cm en X y 0.76 cm en Y (los cuales dependen de cada punto y de la tabla de medidas con la que se trabaje), como se ve en la figura (Gaviria, 2018).

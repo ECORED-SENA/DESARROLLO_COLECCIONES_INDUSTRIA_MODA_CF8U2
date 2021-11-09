@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Desarrollo técnico para vestuario',
+    componenteFormativo: 'Patronaje bebé',
     descripcionCurso:
       'El patronaje hace parte fundamental de las labores del desarrollador de vestuario, pues con él se logra materializar los productos de moda. Las personas requieren ropa desde su nacimiento, es por ello que adquirir las competencias de patronaje de bebé es muy importante. En esta unidad se abordarán los conceptos básicos del patronaje de bebé, las medidas antropométricas de los bebés, asimismo el desarrollo de prendas claves de esta línea.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -125,11 +125,6 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',

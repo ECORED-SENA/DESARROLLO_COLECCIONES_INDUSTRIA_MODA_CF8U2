@@ -1,1 +1,1 @@
-module.exports = 'Desarrollo técnico para vestuario'
+module.exports = 'Patronaje bebé'
